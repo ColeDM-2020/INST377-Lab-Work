@@ -264,6 +264,7 @@ div.carousel {
 
 .prev:hover,
 .next:hover {
+  color: #BD4733;
   /* Pick a good background colour for your hover pseudoclass */
 }
 
@@ -308,15 +309,6 @@ form label {
       align-items: center;
     }
 
-    .left_section {
-      background-color: #6B5277;
-      flex: 0 1 auto;
-      margin: 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-    }
-
     .right_section {
       background-color: #195DBA;
       flex: 1 2 auto;
@@ -325,4 +317,5 @@ form label {
       display: flex;
       flex-direction: column;
     }
+
 }
