@@ -7,45 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header class="header"><h1>Cole Morgan's Labs For INST377</h1></header>
-    <div class="container">
-      <div class="left_section box">
-        <h3>Album Names</h3>
-        <ol class="box">
-          <li>The Essential Journey - Journey</li>
-          <li>Greatest - Bee Gees</li>
-          <li>Pyromania - Def Leppard</li>
-          <li>Sensational - Yung Gravy</li>
-          <li>SAVAGE MODE II - 21 Savage & Metro Boomin</li>
-        </ol>
-      </div>
-      
-      <div class="right_section box">
-        <h3>Image Carousel</h3>
-            <div class="carousel">
-                <button class="prev">Prev</button>
-                <div class="slides">
-                    <div class="carousel_item visible"><img id="1" src="images/256x256bb (1).jpg" alt="Image of SR-71 Blackbird" /></div>
-                    <div class="carousel_item hidden"><img id="2" src="images/256x256bb.jpg" alt="Image of Koenigsegg Agera RS" /></div>
-                    <div class="carousel_item hidden"><img id="3" src="images/aGIADsG7_400x400.jpg" alt="Image of Train" /></div>
-                    <div class="carousel_item hidden"><img id="4" src="images/Texas-Smoked-Beef-Brisket-Recipe-Squaree-1.jpg" alt="Image of Brisket" /></div>
-                </div>
-                <button class="next">Next</button>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Cole Morgan's Labs For INST377</h1>
+        </header>
+        <div class="container">
+            <div class="left_section box">
+                <h3>Form Inputs</h3>
+                <form action="/api" class="box">
+                    Restaurant Name
+                    <label for="resto"></label>
+                    <input type="text" name="resto" id="resto">
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-        <div class="box">
-            <p>
-                The 1st image is an image of an SR-71 Blackbird. The 2nd image is an image of a Koenigsegg Agera RS.
-                The 3rd image is an image of a Train. The 4th image is an image of Texas Brisket.
-            </p>
-        </div>
-      </div>
+            <div class="right_section box">
+                <h3>Local Restaurants</h3>
+                <div class="restaurant_list box">
+                    A List of Local Restaurants From an API
+                </div>
+            </div>
+        </div>    
     </div>
     <footer class="footer subtitle">
         GitHub Link: <a href="http://github.com/ColeDM-2020/INST377-Lab-Work.git" target="_blank" rel="noopener noreferrer">Cole Morgan's GitHub INST377 Repository</a>
     </footer>
-  </div>
-  <script src="script.js" ></script>
 </body>
 </html>
 
