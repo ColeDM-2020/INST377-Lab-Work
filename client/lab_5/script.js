@@ -9,7 +9,6 @@ function filterList(list, query) {
     const lowerCaseName = item.name.toLowerCase();
     const lowerCaseQuery = query.toLowerCase();
     return lowerCaseName.includer(lowerCaseQuery);
-
   })
   
   /*
